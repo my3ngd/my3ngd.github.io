@@ -1,69 +1,58 @@
-/* 
- * border -> padding
- * if (border: 10px; padding:  5px) then
- *    (border:  0px; padding: 15px)
- */
-
-header {
-	border: 5px solid red;
-	padding-bottom: 20px;
-	font-size: 50pt;
-	text-align: center;	
+body {
+	margin: 0px;
+	background-color: black;
+	color: mintcream;
 }
 
-nav {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border: 5px solid orange;
-	padding-bottom: 10px;
-
-	font-size: 20pt;
-	text-align: center;
-}
-
-aside {
-	border: 5px solid gold;
-	padding-left: 30px;
-	padding-top: 10px;
-	/* height: 2100px; */
-	height: auto;
-	width: 250px;
-
-	font-size: 15pt;
-	text-align: center;
+details {
+	width: auto;
 }
 
 details > summary {
-	margin-bottom: 5px;
-	border-radius: 10px;
-	padding-left: 10px;
-	padding-bottom: 3px;
-	background-color: dodgerblue;
-	width: 128px;
+	cursor: help;
+	width: auto;
+	list-style: none;
+	border: none;
 }
 
-li {
-	list-style-type: square;
+details > summary::-webkit-details-marker {
+	display: none;
+	border: none;
 }
 
-main {
-	border: 5px solid greenyellow;
-	padding-top: 30px;
-	padding-left: 10px;
+/* id */
+/* index.html - mainpage */
+#mainpage {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
 }
 
-footer {
-	border: 5px solid black;
-	margin-top: 5px;
-	padding: 10px;
+#mainpage-image {
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
 
-	font-size: 30pt;
+#mainpage-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
 	text-align: center;
+	font-size: 60pt;
+	font-weight: bold;
 }
 
-/* classes */
-.aside-main-class {
-	display: grid;
-	border: 5px solid magenta;
-	grid-template-columns: 300px 1fr;
+/* index.html - intro */
+#introduction {
+	margin: 0px;
+	border: 0px;
+	padding-top: 30px;
+	padding-left: 300px;
+	padding-bottom: 30px;
+	padding-right: 300px;
+	height: 1000px;
+	font-size: 20pt;
 }
