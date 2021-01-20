@@ -12,11 +12,14 @@ details {
 	width: auto;
 }
 
+summary {
+	outline: none;
+}
+
 details > summary {
 	cursor: help;
 	width: auto;
 	list-style: none;
-	outline: none;
 }
 
 details > summary::-webkit-details-marker {
