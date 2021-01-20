@@ -25,6 +25,12 @@ details > summary {
 details > summary::-webkit-details-marker {
 	display: none;
 	border: none;
+	width: 180px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 ul {
@@ -38,7 +44,7 @@ footer {
 	padding: 30px;
 	padding-left: 300px;
 	width: auto;
-	height: 100px;
+	height: 300px;
 
 	background-color: silver;
 	color: black;
@@ -85,4 +91,5 @@ footer {
 /* indent */
 .indent {
 	margin-left: 20px;
+	font-size: 16pt;
 }
