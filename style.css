@@ -16,7 +16,7 @@ details > summary {
 	cursor: help;
 	width: auto;
 	list-style: none;
-	border: none;
+	outline: none;
 }
 
 details > summary::-webkit-details-marker {
@@ -24,8 +24,9 @@ details > summary::-webkit-details-marker {
 	border: none;
 }
 
-details > ul {
+ul {
 	padding-left: 0px;
+	list-style-type: none;
 }
 
 footer {
